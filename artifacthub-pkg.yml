@@ -1,0 +1,38 @@
+# Artifact Hub package metadata file
+#
+# Reference: https://github.com/artifacthub/hub/blob/master/docs/metadata/artifacthub-pkg.yml
+
+version: 41.20250126.1
+name: achillobator
+displayName: Achillobator
+createdAt: 2025-01-27T10:00:00Z
+description: CentOS Stream-based Bluefin image
+logoURL: https://avatars.githubusercontent.com/u/120078124?s=200&v=4
+license: Apache-2.0
+homeURL: https://projectbluefin.io/
+appVersion: 41.20250126.1
+containersImages:
+  - name: bootc
+    image: ghcr.io/centos-workstation/achillobator:latest
+prerelease: true
+keywords:
+  - bootc
+  - centos
+  - bluefin
+  - ublue
+  - universal-blue
+links:
+  - name: source
+    url: https://github.com/centos-workstation/achillobator
+changes:
+  - kind: added
+    description: Initial release
+maintainers:
+  - name: castrojo
+    email: jorge.castro@gmail.com
+  - name: tulilirockz
+    email: tulilirockz@outlook.com
+provider:
+  name: CentOS
+recommendations:
+  - url: https://artifacthub.io/packages/container/bluefin/bluefin
